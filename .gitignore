@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Build artefacts
+build/
+*.o
+*.elf
+*.bin
+*.map
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Captured logs can contain track and vehicle identifying detail --
+# keep raw captures out of git unless they have been anonymised.
+testdata/*.raw
+testdata/*.log
+docs/images/*.mov
+docs/images/*.MP4
